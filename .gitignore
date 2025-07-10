@@ -1,0 +1,4 @@
+Delta_lake/
+checkpointDir/
+.ipynb_checkpoints/
+.jupyter/
