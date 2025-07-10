@@ -1,4 +1,4 @@
-Delta_lake/
-checkpointDir/
+Delta_lake/schema_1
+checkpointDir/schema_1
 .ipynb_checkpoints/
 .jupyter/

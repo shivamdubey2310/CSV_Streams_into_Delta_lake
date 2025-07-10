@@ -1,4 +1,7 @@
 # Schema for schema_1 CSVs ("College_Placements_data")
+# Note: When creating your own schema, name the JSON file as schema_{folder_number}.json
+# For example: schema_1.json for schema_1 folder, schema_2.json for schema_2 folder
+
 import json
 
 def return_schema():
