@@ -13,7 +13,7 @@ A real-time data processing pipeline that automatically cleans CSV files and sto
 ## 📁 Project Structure
 
 ```
-Auto_clean_csv/
+CSV_Streams_into_Delta_lake/
 ├── Main.py                    # Main application entry point
 ├── README.md                  # Project documentation
 ├── requirements.txt           # Python dependencies
@@ -226,14 +226,3 @@ The project includes sample college student placement datasets in the `Example/`
 - **Checkpoints**: Monitor progress in `checkpointDir/`
 - **Delta Log**: Transaction logs in `Delta_lake/*//_delta_log/`
 - **Logs**: Application logs are saved in `logs/schema_{folder_num}.log`
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
