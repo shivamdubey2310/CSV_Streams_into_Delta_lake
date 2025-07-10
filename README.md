@@ -1,4 +1,4 @@
-# Auto Clean CSV
+# CSV Streams into delta lake
 
 A real-time data processing pipeline that automatically cleans CSV files and stores them in Delta Lake using Apache Spark Structured Streaming.
 
