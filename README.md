@@ -17,7 +17,6 @@ CSV_Streams_into_Delta_lake/
 ├── Main.py                    # Main application entry point
 ├── README.md                  # Project documentation
 ├── requirements.txt           # Python dependencies
-├── artifacts/                 # Build artifacts and dependencies
 ├── checkpointDir/            # Spark streaming checkpoints
 │   ├── schema_1/             # Schema-specific checkpoint data
 │   └── schema_2/
@@ -30,12 +29,8 @@ CSV_Streams_into_Delta_lake/
 └── Raw_CSVs/                 # Input directory for raw CSV files
     ├── schema_1/             # Schema 1 folder
     │   ├── schema.py         # Schema definition for this folder
-    │   ├── file1.csv         # CSV files following schema_1
-    │   └── file2.csv
     └── schema_2/             # Schema 2 folder
         ├── schema.py         # Schema definition for this folder
-        ├── data1.csv         # CSV files following schema_2
-        └── data2.csv
 ```
 
 ## 🛠️ Requirements
