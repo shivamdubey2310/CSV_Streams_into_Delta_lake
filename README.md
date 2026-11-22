@@ -2,6 +2,8 @@
 
 A real-time data processing pipeline that automatically cleans CSV files and stores them in Delta Lake using Apache Spark Structured Streaming.
 
+![Architecture diagram](Architecture.webp)
+
 ## 🚀 Features
 
 - **Real-time Processing**: Automatically processes CSV files as they arrive
